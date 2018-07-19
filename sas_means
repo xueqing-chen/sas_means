@@ -1,0 +1,5 @@
+
+ proc means data=target_loan_behaivor_fq n mean median  p5 q1 p50 q3 p95 p99 max min maxdec=0 ;
+				var &InputVar_List ;
+				
+				output out=test ; run;
